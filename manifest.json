@@ -10,7 +10,6 @@
 
   "content_scripts": [{
     "js": ["script.js"],
-    "matches": ["https://*.windfinder.com/*"],
-    "run_at": "document_end"
+    "matches": ["https://*.windfinder.com/*"]
   }]
 }
